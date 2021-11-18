@@ -21,6 +21,10 @@ h2 {
     color: #fff !important;
 }
 
+.ml-5 {
+    margin-left: 60px;
+}
+
 
 /* Hero Section --------------------------------------------------------------*/
 
@@ -49,20 +53,31 @@ h2 {
     top: 0;
 }
 
-#hero .myName {
+#hero .myName,
+.fresher {
     position: absolute;
     font-size: 50px;
-    top: 30%;
+    top: 20%;
     left: 0px;
     right: 0;
 }
 
-#hero .hero-content {
+#hero .fresher {
+    top: 45%;
+    font-size: 33px;
+}
+
+#hero .hero-content,
+.hero-title {
     position: absolute;
-    font-size: 30px;
-    top: 50%;
+    font-size: 37px;
+    top: 55%;
     left: 0px;
     right: 0;
+}
+
+#hero .hero-title {
+    top: 85%;
 }
 
 
@@ -141,7 +156,7 @@ h2 {
 /*--/ Title Left /--*/
 
 .title-box-2 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .title-left {
@@ -315,4 +330,150 @@ h2 {
 
 .portfolio-details .portfolio-description p {
     padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+
+@media (min-width: 767px) {
+    .card-blog {
+        margin-bottom: 3rem;
+    }
+}
+
+.card-blog .card-body {
+    position: relative;
+}
+
+.card-blog .card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.card-blog .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+
+.card-blog .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+}
+
+.card-blog .card-title {
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+}
+
+.card-blog .post-author {
+    display: inline-block;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+#back-top {
+    background: #270585;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, .2)
+}
+
+@media (max-width:575px) {
+    #back-top {
+        right: 16px
+    }
+}
+
+#back-top a i {
+    display: block;
+    line-height: 50px
+}
+
+#back-top:hover {
+    background: #40c40c;
+    color: rgb(38, 4, 231);
+}
+
+#back-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+
+footer .copyright {
+    margin-bottom: 0.3rem;
+}
+
+footer .credits {
+    margin-bottom: 0;
+}
+
+footer .credits a {
+    color: #fff;
+}
+
+.text-muted {
+    font-size: 25px;
+}
+
+.lead {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .hide-section {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hide-section {
+        display: none;
+    }
 }

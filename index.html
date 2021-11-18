@@ -17,7 +17,7 @@
 
 <body>
     <div class="header row">
-        <div class="col-md-5">
+        <div class="col-md-5 hide-section">
             <h2 class="ml-5">CONGNT</h2>
         </div>
 
@@ -25,8 +25,8 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ml-5" id="navbarText">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto" style="margin-left: 300px;">
                     <li class="nav-item active">
                         <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
                     </li>
@@ -51,10 +51,12 @@
 
     <div id="hero" class="container-fluid text-center mb-5 box-shadow ">
         <img class="bg-image" src="/mycv/img/20200726_065834.jpg" alt="">
-        <div class="bg-color">
-        </div>
-        <h1 class="myName">I AM CONG THANH NGUYEN</h1>
-        <p class="hero-content mt-3">Back End Developer <br> <small style="font-size: 12px;"><i>It's never too late to start new things</i></small></p>
+        <div id="app" class="bg-color"></div>
+
+        <!-- <h1 class="myName"></h1> -->
+        <!-- <p class="fresher">Fresher</p>
+        <p class="hero-content mt-3">Back End Developer</p><br> -->
+        <p class="hero-title" style="font-size: 12px;"><i>It's never too late to start new things</i></p>
 
     </div>
     <!-- End Hero Section -->
@@ -64,7 +66,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="/mycv/img/testimonial-2.jpg" class="img-fluid">
+                        <img src="/mycv/img/20200726_065834.jpg" class="img-fluid">
                     </div>
                     <div class="col-md-8">
                         <div class="about-info">
@@ -97,6 +99,16 @@
                         <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
+
+                <div class="mt-3">
+                    <h3>Other skills</h3>
+                    <ul class="ml-4">
+                        <li>Foreign languges: English(reading comprehension combined with google translate), Japanes(basic communication)</li>
+                        <li>Basic graphics(Adobe Illutrator, Adobe Photoshop)</li>
+                        <li>Time management, Problem solving</li>
+                    </ul>
+                </div>
+
             </div>
 
             <div id="about" class="col-md-6">
@@ -120,11 +132,15 @@
                             <li class="">Build Web application. Restfull webservice JSP/JDBC, Spring Mvc, Spring boot and use Thymeleaf, Sitemesh to display in client.</li>
                         </ul>
                     </div>
-                    <p class="lead">
-                        With a spirit of eagerness to learn, proactive and responsible at work. I will always try my best to complete the assigned work.
-                    </p>
                 </div>
             </div>
+        </div>
+        <hr>
+        <div class="">
+            <p class="lead">
+                With a spirit of eagerness to learn, proactive and responsible at work. I will always try my best to complete the assigned work.
+            </p>
+            <p class="lead">Although starting a programming career is quite late and inexperienced. But with passion and enthusiasm I will always try to learn to develop skills. In the next 3 years I will be a professional developer.</p>
         </div>
 
     </div>
@@ -149,7 +165,7 @@
             <div class="col-md-4">
                 <div class="work-box">
                     <div class="work-img">
-                        <a href="/mycv/img/html_css.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                        <a href="/mycv/img/html_css.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
                             <img src="/mycv/img/html_css.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -173,7 +189,7 @@
             <div class="col-md-4">
                 <div class="work-box">
                     <div class="work-img">
-                        <a href="/mycv/img/javascript.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                        <a href="/mycv/img/javascript.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
                             <img src="/mycv/img/javascript.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -197,7 +213,7 @@
             <div class="col-md-4">
                 <div class="work-box">
                     <div class="work-img">
-                        <a href="/mycv/img/oop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                        <a href="/mycv/img/oop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
                             <img src="/mycv/img/oop.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -221,7 +237,7 @@
             <div class="col-md-4">
                 <div class="work-box">
                     <div class="work-img">
-                        <a href="/mycv/img/algrothirm.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                        <a href="/mycv/img/algrothirm.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
                             <img src="/mycv/img/algrothirm.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -245,7 +261,7 @@
             <div class="col-md-4">
                 <div class="work-box">
                     <div class="work-img">
-                        <a href="/mycv/img/shopmobile.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                        <a href="/mycv/img/shopmobile.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
                             <img src="/mycv/img/shopmobile.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -269,7 +285,7 @@
             <div class="col-md-4">
                 <div class="work-box">
                     <div class="work-img">
-                        <a href="/mycv/img/charity.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                        <a href="/mycv/img/charity.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
                             <img src="/mycv/img/charity.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -289,13 +305,256 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+    </div>
+
+    <div class="container box-shadow-full">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="certificate" class="title-box text-center">
+                    <h3 class="title-a">
+                        Certificate
+                    </h3>
+                    <p class="subtitle-a">
+                        <i class="fas fa-file-certificate fa-2x"></i>
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4">
+                <div class="card card-blog">
+                    <div class="">
+                        <a href="/mycv/img/WEB101x.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
+                            <img src="/mycv/img/WEB101x.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><i class="far fa-diploma"></i></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="#">Build First Website With HTML/CSS.</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="post-author">
+                            <a href="#">
+                                <img src="/mycv/img/WEB101x.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author">CONG THANH NGUYEN</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-blog">
+                    <div class="">
+                        <a href="/mycv/img/JAVASCRIPT_PRF192.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
+                            <img src="/mycv/img/JAVASCRIPT_PRF192.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><i class="far fa-diploma"></i></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="#">Creating First Application With JavaScript</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="post-author">
+                            <a href="/mycv/img/JAVASCRIPT_PRF192.jpg">
+                                <img src="/mycv/img/JAVASCRIPT_PRF192.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author">CONG THANH NGUYEN</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-blog">
+                    <div class="">
+                        <a href="/mycv/img/JAVA_PRO192.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
+                            <img src="/mycv/img/JAVA_PRO192.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><i class="far fa-diploma"></i></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="#">Object Oriented Programming With Java</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="post-author">
+                            <a href="/mycv/img/JAVA_PRO192.jpg">
+                                <img src="/mycv/img/JAVA_PRO192.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author">CONG THANH NGUYEN</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-blog">
+                    <div class="">
+                        <a href="/mycv/img/DTSTRUCT_CSD20.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
+                            <img src="/mycv/img/DTSTRUCT_CSD20.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><i class="far fa-diploma"></i></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="#">Data Structure And Algrorithm(DSA)</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="post-author">
+                            <a href="/mycv/img/DTSTRUCT_CSD20.jpg">
+                                <img src="/mycv/img/DTSTRUCT_CSD20.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author">CONG THANH NGUYEN</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-blog">
+                    <div class="">
+                        <a href="/mycv/img/JAVAEE_PRJ321x.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
+                            <img src="/mycv/img/JAVAEE_PRJ321x.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><i class="far fa-diploma"></i></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="#">Web-Based Application With Java</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="post-author">
+                            <a href="/mycv/img/JAVAEE_PRJ321x.jpg">
+                                <img src="/mycv/img/JAVAEE_PRJ321x.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author">CONG THANH NGUYEN</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-blog">
+                    <div class="">
+                        <a href="/mycv/img/DAN_SWP490x.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Click to fullsize view">
+                            <img src="/mycv/img/DAN_SWP490x.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><i class="far fa-diploma"></i></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="#">Capstone Project - Build Web-Based Application With Java</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="post-author">
+                            <a href="/mycv/img/DAN_SWP490x.jpg">
+                                <img src="/mycv/img/DAN_SWP490x.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author">CONG THANH NGUYEN</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container box-shadow-full">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="portfolio" class="title-box text-center">
+                    <h3 class="title-a">
+                        Contact
+                    </h3>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
 
 
-
+        <div class="card card-default mt-2" id="card_contacts">
+            <div id="contacts" class="panel-collapse collapse show" aria-expanded="true" style="">
+                <ul class="list-group pull-down" id="contact-list">
+                    <li class="list-group-item">
+                        <div class="row w-100">
+                            <div class="col-md-3 px-0 hide-section">
+                                <img src="/mycv/img/20200726_065834.jpg" alt="Cong Nt" class="rounded-circle d-block img-fluid">
+                            </div>
+                            <div class="col-md-9 text-center text-md-left p-5">
+                                <span class="fa fa-mobile fa-2x text-success float-right pulse" title="online now"></span>
+                                <label class="name lead">CONG THANH NGUYEN</label>
+                                <br>
+                                <span class="fa fa-map-marker fa-fw text-muted"></span>
+                                <span class="text-muted">31/34 3-Street Tam Binh Ward Thu Duc City HCM</span>
+                                <br><br>
+                                <span class="fa fa-phone fa-fw text-muted"></span>
+                                <span class="text-muted small">(032) 973-8149</span>
+                                <br><br>
+                                <span class="fa fa-envelope fa-fw text-muted"></span>
+                                <span class="text-muted small text-truncate">ntcongyamaha@gmail.com</span>
+                                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=ntcongyamaha@gmail.com" target="_blank"><button class="__cf_email__ btn btn-primary ml-1">Send for me</button></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
         </div>
 
     </div>
+
+    <!-- ======= Footer ======= -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">&copy; Copyright
+                            <strong>
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            </strong></p>
+                        <div class="credits">
+                            Designed by CongNt
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="back-top">
+        <a title="Go to Top" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+    </div>
+
 
 
 
@@ -305,6 +564,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        var app = document.getElementById('app');
+
+        var typewriter = new Typewriter(app, {
+            loop: true,
+            delay: 75,
+        });
+
+        typewriter
+            .pauseFor(2500)
+            .typeString('<h1 class="myName">I AM CONG THANH NGUYEN</h1>')
+            .pauseFor(300)
+            .typeString('<p class="fresher">Fresher</p><p class="hero-content mt-3">Back End Developer</p><br>')
+            .pauseFor(1000)
+            .start();
+    </script>
 </body>
 
 </html>
