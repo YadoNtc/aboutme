@@ -472,8 +472,40 @@ footer .credits a {
 }
 
 @media screen and (max-width: 768px) {
+    .mr-auto {
+        margin: 0 !important;
+    }
     .hide-section {
         display: none;
+    }
+    .text-muted {
+        font-size: 15px;
+    }
+    .mobile {
+        padding: 0 !important;
+        text-align: left !important;
+    }
+    .name {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .title-a {
+        font-size: 2rem;
+    }
+    #hero .myName,
+    .fresher {
+        position: absolute;
+        font-size: 25px;
+        top: 20%;
+        left: 0px;
+        right: 0;
+    }
+    #hero .hero-content {
+        position: absolute;
+        font-size: 20px;
+        top: 55%;
+        left: 0px;
+        right: 0;
     }
 }
 
